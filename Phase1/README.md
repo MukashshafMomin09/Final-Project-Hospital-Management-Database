@@ -11,20 +11,6 @@ This repository contains the SQL script for the **Hospital Management Database -
 ### Prerequisites
 Ensure that you have a database management system installed, such as MySQL or PostgreSQL, to execute the SQL script.
 
-### Steps to Set Up the Database
-1. Clone the repository using the following command:
-   ```bash
-   git clone <repo-url>
-   ```
-2. Open your preferred database management tool (e.g., MySQL Workbench, pgAdmin, or SQL Server Management Studio).
-3. Create a new database with the desired name.
-4. Open and execute the `hospital_management.sql` script in the SQL editor.
-5. Verify that the tables have been created successfully by running:
-   ```sql
-   SHOW TABLES; -- For MySQL
-   SELECT table_name FROM information_schema.tables WHERE table_schema = 'your_database_name'; -- For PostgreSQL
-   ```
-
 ## Database Schema
 The database consists of multiple tables designed to store and manage hospital operations efficiently. Below are the key entities:
 
@@ -51,12 +37,3 @@ The database consists of multiple tables designed to store and manage hospital o
 - **Medical History Tracking**: Keep a record of diagnoses, treatments, and prescribed medications.
 - **Billing and Payments**: Manage hospital billing processes efficiently.
 
-## License
-This project is open-source and available for modification and use. Feel free to use and enhance it based on your needs.
-
-## Contributions
-We welcome contributions from the community! If you want to improve the database structure, fix issues, or add new features, follow these steps:
-1. Fork the repository.
-2. Create a new branch for your changes.
-3. Commit and push your changes.
-4. Submit a pull request for review.
